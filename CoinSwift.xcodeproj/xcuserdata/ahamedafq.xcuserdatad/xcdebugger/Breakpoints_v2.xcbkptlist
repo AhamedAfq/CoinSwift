@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E985FB67-3CCA-49AA-B01B-26D0F53002F5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D777775D-7FE0-4E54-B9E4-AFF938DED160"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinSwift/View/CoinTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setupViewWith(coinImage:coinSymbol:coinName:coinRank:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B4F3E2D-9C1B-497C-A3DB-2BE1DA1590D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinSwift/Helper/CoinSwiftNetworkHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "performRequest(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B4F3E2D-9C1B-497C-A3DB-2BE1DA1590D8 - 9b5f68490a52d3a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinSwift.CoinSwiftNetworkHelper.performRequest(url: Swift.String) -&gt; ()"
+                  moduleName = "CoinSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamedafq/Documents/iOS%20PROJECTS/CoinSwift/CoinSwift/Helper/CoinSwiftNetworkHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "4B4F3E2D-9C1B-497C-A3DB-2BE1DA1590D8 - 9b5f68490a52d3a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinSwift.CoinSwiftNetworkHelper.performRequest(url: Swift.String) -&gt; ()"
+                  moduleName = "CoinSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamedafq/Documents/iOS%20PROJECTS/CoinSwift/CoinSwift/Helper/CoinSwiftNetworkHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

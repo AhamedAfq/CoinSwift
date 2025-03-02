@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="CoinTableViewCell" customModule="CoinSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty" translatesAutoresizingMaskIntoConstraints="NO" id="sQz-z3-MZG">
+                        <rect key="frame" x="16" y="16" width="50" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="WrF-uD-LPQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="BTC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7i-Dx-3Mn" userLabel="coinSymbol">
+                        <rect key="frame" x="78" y="28.333333333333329" width="200" height="22.666666666666671"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="sic-4h-Z2C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHq-eH-WMW" userLabel="coinName">
+                        <rect key="frame" x="78" y="55" width="200" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="Igr-40-NgU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agp-ZT-YnO">
+                        <rect key="frame" x="311" y="29" width="50" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="T1V-hu-cIO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="tintColor" systemColor="systemGray5Color"/>
+                <constraints>
+                    <constraint firstItem="sQz-z3-MZG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="6db-yD-Sh6"/>
+                    <constraint firstItem="T7i-Dx-3Mn" firstAttribute="leading" secondItem="sQz-z3-MZG" secondAttribute="trailing" constant="12" id="9l1-h9-bjf"/>
+                    <constraint firstItem="agp-ZT-YnO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EV6-mr-8ey"/>
+                    <constraint firstItem="sQz-z3-MZG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="FLx-75-jGh"/>
+                    <constraint firstItem="XHq-eH-WMW" firstAttribute="top" secondItem="T7i-Dx-3Mn" secondAttribute="bottom" constant="4" id="IUT-Po-Dcj"/>
+                    <constraint firstAttribute="bottom" secondItem="sQz-z3-MZG" secondAttribute="bottom" constant="8" id="ML9-dS-DxN"/>
+                    <constraint firstAttribute="trailing" secondItem="agp-ZT-YnO" secondAttribute="trailing" constant="8" id="Wwg-vV-eDH"/>
+                    <constraint firstAttribute="bottom" secondItem="XHq-eH-WMW" secondAttribute="bottom" constant="8" id="iA1-mu-mVl"/>
+                    <constraint firstItem="T7i-Dx-3Mn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tSu-Uh-hkT"/>
+                    <constraint firstItem="XHq-eH-WMW" firstAttribute="leading" secondItem="sQz-z3-MZG" secondAttribute="trailing" constant="12" id="ySH-OO-95y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coinImage" destination="sQz-z3-MZG" id="Pwn-bS-ess"/>
+                <outlet property="coinName" destination="XHq-eH-WMW" id="b5H-CL-1Wd"/>
+                <outlet property="coinRank" destination="agp-ZT-YnO" id="Oca-9z-sms"/>
+                <outlet property="coinSymbol" destination="T7i-Dx-3Mn" id="glY-65-XfX"/>
+            </connections>
+            <point key="canvasLocation" x="-81.679389312977094" y="65.845070422535215"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="empty" width="125" height="100"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
